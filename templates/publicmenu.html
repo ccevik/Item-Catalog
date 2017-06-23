@@ -47,7 +47,11 @@
 								<h3>{{i.name}}</h3>
 								<p>{{i.description}}</p>
 								<p class="menu-price">{{i.price}}</p>
-
+								{% if i.imgurl %}
+								<img src="{{i.imgurl}}" style="width: 100%"/>
+                                {% else %}
+                                <img src="/static/no_img.png" style="width: 100%"/>
+                                {% endif %}
 							</div>
 						{% endif %}
 					{% endfor %}
@@ -60,7 +64,11 @@
 							<h3>{{i.name}}</h3>
 							<p>{{i.description}}</p>
 							<p class="menu-price">{{i.price}}</p>
-
+							{% if i.imgurl %}
+							<img src="{{i.imgurl}}" style="width: 100%"/>
+							{% else %}
+							<img src="/static/no_img.png" style="width: 100%"/>
+							{% endif %}
 						</div>
 						{% endif %}
 					{% endfor %}
@@ -73,7 +81,11 @@
 							<h3>{{i.name}}</h3>
 							<p>{{i.description}}</p>
 							<p class="menu-price">{{i.price}}</p>
-
+							{% if i.imgurl %}
+							<img src="{{i.imgurl}}" style="width: 100%"/>
+							{% else %}
+							<img src="/static/no_img.png" style="width: 100%"/>
+							{% endif %}
 						</div>
 						{% endif %}
 					{% endfor %}
@@ -84,7 +96,11 @@
 							<h3>{{i.name}}</h3>
 							<p>{{i.description}}</p>
 							<p class="menu-price">{{i.price}}</p>
-
+							{% if i.imgurl %}
+							<img src="{{i.imgurl}}" style="width: 100%"/>
+							{% else %}
+							<img src="/static/no_img.png" style="width: 100%"/>
+							{% endif %}
 						</div>
 						{% endif %}
 					{% endfor %}
