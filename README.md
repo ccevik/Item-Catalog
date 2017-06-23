@@ -17,10 +17,12 @@ Setting up OAuth 2.0
 
 Setting up the Environment
 ----------------------------------
-
-1. clone or download the repo into vagrant environment.
-2. From your Terminal type command vagrant up,vagrant ssh.
-3. Run python database_setup.py to create the database.
-4. Run Python lotsofmenus.py to add the menu items
-5. Run python 'project.py'
-6. From your webbrowser and visit http://localhost:8000/
+1. install Git
+2. Install Virtual Box
+3. Install Vagrant
+4. Clone project https://github.com/ccevik/fullstack-nanodegree-vm
+5. From your Terminal type command vagrant up,vagrant ssh.
+6. Run python database_setup.py to create the database.
+7. Run Python lotsofmenus.py to add the menu items
+8. Run python 'project.py'
+9. From your webbrowser and visit http://localhost:5000/
